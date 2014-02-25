@@ -1,0 +1,133 @@
+body{
+	font-family: 'HelveticaNeue-UltraLight';
+	color: white;
+}
+
+	body p{
+		font-size: 20px;
+	}
+
+	body video{
+		overflow: hidden;
+		position: fixed;	
+		width: 1600px;
+		z-index: -1;
+	}
+
+/*SLIDE 1*/
+	
+	#slide-1{
+	}
+
+		#slide-1 .brand{
+			font-size: 30px;
+		}
+			#slide-1 .brand{
+				padding-top: 10px;
+				padding-left: 30px;
+			}
+		#slide-1 .sign_up{
+			font-size: 30px;
+		}
+			#slide-1 .sign_up input{
+				position: absolute;
+				background-color: transparent;
+				border: 2px solid white;
+				color: white;
+				right:20px;
+				text-align: center;
+				border-radius:15px;
+				margin: 10px;
+			}
+
+				#slide-1 .sign_up input::-webkit-input-placeholder{
+					color: white;
+				}
+
+				#slide-1 .sign_up input:-moz-placeholder{
+					color: white;  
+				}
+
+				#slide-1 .sign_up input::-moz-placeholder{
+					color: white;  
+				}
+
+				#slide-1 .sign_up input:-ms-input-placeholder{  
+					color: white;  
+				}
+
+
+		#slide-1 #title{
+			padding: 10px;
+			margin-top: 300px;
+			margin-bottom: 300px;
+		}
+
+		#slide-1 h1{
+			font-size: 70px;
+		}
+
+
+/*SLIDE 2*/
+	#slide-2{
+		background-color: 27AE60;
+	}
+		#slide-2 img{
+			max-width: 450px;
+			width:100%;
+			padding-left: 10px;	
+			padding-right: 10px;
+			padding-top: 50px;
+			padding-bottom: 50px;	
+		}
+
+
+/*SLIDE 3*/
+	#slide-3{
+		background-color: D9D9D9;
+	}
+		#slide-3 h1{
+			padding-top: 50px;
+		}
+		#slide-3 img{
+			max-width: 900px;
+			width:100%;
+			padding-left: 10px;
+			padding-right: 10px;
+			padding-bottom: 50px;
+		}
+
+/*SLIDE 4*/
+	#slide-4{
+		background-color: 5391FF;
+	}
+		#slide-4 h1{
+			padding-top: 50px;
+		}
+		#slide-4 img{
+			max-width: 500px;
+			width:100%;
+			padding-top: 20px;
+			padding-left: 10px;
+			padding-right: 10px;
+			padding-bottom: 70px;
+		}
+
+
+/*SLIDE 5*/
+	#slide-5{
+		background-color: FFD66C;
+		min-height: 740px;
+	}
+		#slide-5 .fact-box{
+			padding-top: 75px;
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+
+
+
+/*HELPERS*/
+.no-padding{
+	padding: 0px;
+}
