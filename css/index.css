@@ -3,11 +3,16 @@
 	src:url('/fonts/helvetica-neue-ultralight.ttf');
 }
 
-
+@media screen and (max-width: 680px)
+{
+    video{ 
+    	display:none; 
+    }
+}
 body{
 	font-family: 'UpvaletSiteFont';
 	color: white;
-	background-color: FFD66C;
+	background-color: F2BB58;
 }
 
 	body p{
