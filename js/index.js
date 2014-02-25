@@ -4,4 +4,10 @@ $('#requestor-email').on("submit", function(event){
 	return false
 });
 
-		$('#requestor-thanks').hide();
+$('#requestor-thanks').hide();
+
+
+$(window).on('scroll',function(event){
+	console.log("SCROLLING");
+});
+
