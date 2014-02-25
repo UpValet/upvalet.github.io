@@ -39,17 +39,23 @@ body{
 		#slide-1 .sign_up{
 			font-size: 30px;
 		}
-			#slide-1 .sign_up input{
-				position: absolute;
+			#slide-1 .sign_up input[type="text"]{
 				background-color: transparent;
 				border: 2px solid white;
 				color: white;
-				right:20px;
 				text-align: center;
 				border-radius:15px;
 				margin: 10px;
 			}
 
+			#slide-1 .sign_up input[type="submit"]{
+				background-color: transparent;
+				border: 2px solid white;
+				color: white;
+				text-align: center;
+				border-radius:15px;
+				margin: 10px;
+			}
 				#slide-1 .sign_up input::-webkit-input-placeholder{
 					color: white;
 				}
