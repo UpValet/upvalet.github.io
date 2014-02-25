@@ -1,5 +1,11 @@
+@font-face{
+	font-family: 'UpvaletSiteFont';
+	src:url('/fonts/helvetica-neue-ultralight.ttf');
+}
+
+
 body{
-	font-family: 'HelveticaNeue-UltraLight';
+	font-family: 'UpvaletSiteFont';
 	color: white;
 }
 
@@ -9,9 +15,13 @@ body{
 
 	body video{
 		overflow: hidden;
-		position: fixed;	
+		position: fixed;
+		left:0px;
+		top:0px;	
 		width: 1600px;
 		z-index: -1;
+		margin:0px;
+		padding:0px;
 	}
 
 /*SLIDE 1*/
@@ -116,7 +126,7 @@ body{
 
 /*SLIDE 5*/
 	#slide-5{
-		background-color: FFD66C;
+		background-color: 2C3E50;
 		min-height: 740px;
 	}
 		#slide-5 .fact-box{
