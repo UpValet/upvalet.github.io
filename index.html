@@ -37,7 +37,7 @@
 
 -->
 
-<form action="//formspree.io/info@upvalet.com" method="POST">
+<form id="requestor-email" action="//formspree.io/info@upvalet.com" method="POST">
     <input type="email" name="_replyto">
     <input type="submit" value="Send">
 </form>
@@ -167,23 +167,14 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
-    <!--
-
     <script type="text/javascript">
 
       $('#requestor-email').submit(function() {
-        $.ajax({
-          contentType: "application/json",
-          url: "http://formspree.io/info@upvalet.com", 
-          method: "POST",
-          data: {message: "hello from website!"},
-          dataType: "json"
-        });
+        window.location = 'http://upvalet.com';
+        return false;
       });
 
     </script>
-
-    -->
 
     <script type="text/javascript" src="js/index.js">
     </script>
