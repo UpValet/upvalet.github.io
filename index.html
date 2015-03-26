@@ -160,7 +160,7 @@
 
       $('#requestor-email').submit(function() {
         $.ajax({
-          contentType: "application/json"
+          contentType: "application/json",
           url: "//formspree.io/info@upvalet.com", 
           method: "POST",
           data: {message: "hello from website!"},
