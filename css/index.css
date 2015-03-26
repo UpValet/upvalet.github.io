@@ -25,7 +25,8 @@ body{
 	}
 
 	#button {
-		margin-top: 2.35em;
+		margin: 0.25em;
+
 		background: transparent;
 		color: #fff;
 		border: solid 2px #fff;
@@ -53,30 +54,29 @@ body{
 		#slide-1 .sign_up{
 			font-size: 30px;
 		}
-			#slide-1 .sign_up input[type="text"]{
-				position: absolute;
-				background-color: transparent;
+			#slide-1 .sign_up form #mailer {
+				background-color: none !important;
 				border: 2px solid white;
-				color: white;
+				color: gray !important;
 				text-align: center;
-				border-radius:15px;
+				border-radius: 15px;
 				margin: 10px;
 			}
 
 				#slide-1 .sign_up input::-webkit-input-placeholder{
-					color: white;
+					color: gray !important;
 				}
 
 				#slide-1 .sign_up input:-moz-placeholder{
-					color: white;  
+					color: gray !important;
 				}
 
 				#slide-1 .sign_up input::-moz-placeholder{
-					color: white;  
+					color: gray !important;
 				}
 
-				#slide-1 .sign_up input:-ms-input-placeholder{  
-					color: white;  
+				#slide-1 .sign_up input:-ms-input-placeholder{
+					color: gray !important;
 				}
 
 
