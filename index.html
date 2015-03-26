@@ -154,21 +154,22 @@
       </div>
     </div>
 
-    <script type="text/javascript">
-
-    $('#requestor-email').submit(function() {
-      $.ajax({
-        url: "//formspree.io/info@upvalet.com", 
-        method: "POST",
-        data: {message: "hello from website!"},
-        dataType: "json"
-      });
-    });
-
-    </script>
-
     <script type="text/javascript" src="js/jquery.js">
     </script>
+
+    <script type="text/javascript">
+
+      $('#requestor-email').submit(function() {
+        $.ajax({
+          url: "//formspree.io/info@upvalet.com", 
+          method: "POST",
+          data: {message: "hello from website!"},
+          dataType: "json"
+        });
+      });
+
+    </script>
+    
     <script type="text/javascript" src="js/index.js">
     </script>
   </body>
