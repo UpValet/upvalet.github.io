@@ -24,12 +24,12 @@
             </span>
           </div>
           <div class="sign_up col-md-offset-6 col-md-3">
-            <form id="requestor-email">
+            <form id="requestor-email" action="http://formspree.io/info@upvalet.com" method="POST">
               <div>
                 Request a demo iPad:
               </div>
-              <input type="text" placeholder="Email" name="email">
-              <input id="button">
+              <input type="text" placeholder="Email" name="_replyto"/>
+              <input id="button" type="submit" value="Send">
             </form>
             <span id="requestor-thanks">
               Thank you for your interest!
@@ -158,12 +158,12 @@
 
     <script type="text/javascript">
 
-      $('#requestor-email').click(function() {
+      $('#requestor-email').submit(function() {
         $.ajax({
-          contentType: "application/json",
+          contentType: "application/json"
           url: "http://formspree.io/info@upvalet.com", 
           method: "POST",
-          data: {message: "Hello from website!"},
+          data: {message: "hello from website!"},
           dataType: "json"
         });
       });
