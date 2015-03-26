@@ -26,6 +26,7 @@ body{
 
 	#button {
 		float: right;
+		display: inline !important;
 		margin-top: 2.35em;
 		background: transparent;
 		color: #fff;
