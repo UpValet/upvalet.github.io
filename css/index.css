@@ -6,7 +6,7 @@
 body{
 	font-family: 'UpvaletSiteFont';
 	color: white;
-	background-color: F2BB58;
+	background-color: #F2BB58;
 }
 
 	body p{
@@ -22,6 +22,19 @@ body{
 		z-index: -1;
 		margin:0px;
 		padding:0px;
+	}
+
+	.form-email #button {
+		display: inline;
+		background: transparent;
+		color: #fff;
+		border: solid 2px #fff;
+		border-radius: 18px;
+	}
+
+	.form-email #button:hover {
+		background: rgba( 26, 175, 93, 1.00);
+		color: #fff;
 	}
 
 /*SLIDE 1*/
