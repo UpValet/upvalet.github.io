@@ -1,0 +1,164 @@
+body {
+    text-align: center;
+}
+
+.uv-navbar {
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+.uv-navbar .navbar-brand, .uv-navbar .navbar-nav>li>a {
+    font-weight: 300;
+    color: #333;
+}
+
+.uv-navbar #logo {
+    width: 16px;
+    margin-top: 14px;
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.hero {
+    padding: 35px 0 80px;
+    background-color: #3498db;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(0,0,0,.1);
+    color: white;
+}
+
+.hero-brand {
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 100;
+}
+
+#logo {
+    width: 26px;
+    margin-right: 10px;
+    margin-top: 6px;
+}
+
+.hero h1 {
+    font-weight: 800;
+    margin: 0;
+}
+
+#sign-up {
+    margin-top: 85px;
+}
+
+#sign-up .form-group {
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+
+#sign-up input.email-input {
+    width: 100%;
+    background-color: #eeeeee;
+    border: 0;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border-radius: 3px;
+    color: #656565;
+}
+
+#sign-up .btn {
+    margin-top:15px;
+    border-radius: 3px;
+    padding: 12px 47px;
+    background-color: #2ecc71;
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+}
+
+#sign-up input.email-input,
+#sign-up .btn {
+    height: 65px;
+    font-size: 22px;
+}
+
+img#devices {
+    margin-top: 30px;
+}
+
+.feature {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.feature img {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+img.ipad {
+    width: 200px;
+}
+
+img.mac {
+    width: 450px;
+}
+
+h1, h2 {
+    font-size: 42px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.feature p {
+    font-size: 16px;
+}
+
+.top-feature {
+    padding: 60px 0 80px;
+}
+
+.bottom-feature {
+    background-color: #E85F50;
+    color: white;
+    padding: 60px 0 80px;
+}
+
+.bottom-feature h1 {
+    font-size: 48px;
+}
+
+.uv-footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    background-color: #3A3A3A;
+}
+
+.uv-footer a {
+    color: white;
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #sign-up .form-group {
+        display: inline-block;
+    }
+    
+    #sign-up input.email-input {
+        width: 500px;
+    }
+    
+    #sign-up .btn {
+        margin-top:0;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .uv-navbar #logo {
+        margin-right: 10px;
+        margin-left: 0;
+    }
+}
