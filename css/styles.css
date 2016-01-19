@@ -113,18 +113,31 @@ h3 {
     font-size: 16px;
 }
 
-.top-feature {
+.section {
     padding: 60px 0 80px;
 }
 
-.bottom-feature {
+.mgt-dashboard {
     background-color: #E85F50;
     color: white;
     padding: 60px 0 80px;
 }
 
-.bottom-feature h1 {
+.mgt-dashboard h1 {
     font-size: 48px;
+}
+
+.testimonials {
+    background-color: #FBFBFB;
+}
+
+.testimonials p {
+    font-size: 22px;
+    color: #929292;
+}
+
+#video-testimonial {
+    padding: 40px 0;
 }
 
 .uv-footer {
@@ -160,5 +173,10 @@ h3 {
     .uv-navbar #logo {
         margin-right: 10px;
         margin-left: 0;
+    }
+    
+    #video-testimonial {
+        width: 500px;
+        height: 395px;
     }
 }
